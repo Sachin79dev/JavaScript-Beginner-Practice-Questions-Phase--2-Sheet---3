@@ -42,3 +42,27 @@ let newNames = names.map((n) => {
 })
 
 console.log(newNames);
+
+
+
+
+// 4. Create a new array where:
+
+// - Every product has a new property `discountPrice`
+// - Discount is 10%
+
+
+let products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Phone", price: 20000 },
+];
+
+
+let discountProduct = products.map((n) => {
+    return {
+        ...n,
+        discountPrice: n.price - (n.price * 10/100)
+    } 
+})
+
+console.log(discountProduct);
