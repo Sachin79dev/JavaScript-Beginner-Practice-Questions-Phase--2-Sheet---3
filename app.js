@@ -30,3 +30,15 @@ students.forEach((n) => {
         console.log(`${n.name} - Fail`);
     }
 })
+
+
+// 3. Convert all names into uppercase.
+
+let names = ["anubhav", "rahul", "aman"];
+
+
+let newNames = names.map((n) => {
+    return n.toUpperCase()
+})
+
+console.log(newNames);
