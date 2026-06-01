@@ -134,3 +134,14 @@ let repeat = fruits.reduce((n, i) => {
 
 
 console.log(repeat);
+
+
+
+// 9. Find first number greater than 50.
+
+let numbering = [20, 35, 60, 80];
+
+
+let greatest = numbering.find((n) => n > 50)
+
+console.log(greatest);
