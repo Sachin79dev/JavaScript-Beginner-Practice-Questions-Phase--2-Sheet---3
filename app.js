@@ -101,3 +101,19 @@ let trueUsers = users.filter((n) => {
 
 
 console.log(trueUsers);
+
+
+
+
+
+// 7. Find total sum of array.
+
+
+let numd = [10,20,30,40]; 
+
+
+let numSum = numd.reduce((n, i) => {
+    return n + i;
+})
+
+console.log(numSum);
