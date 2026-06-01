@@ -66,3 +66,15 @@ let discountProduct = products.map((n) => {
 })
 
 console.log(discountProduct);
+
+
+
+// 5. Filter all even numbers.
+
+let nums = [1,2,3,4,5,6,7,8];
+
+
+let even = nums.filter((n) => n%2 == 0)
+
+
+console.log(even); // (4) [2, 4, 6, 8]
