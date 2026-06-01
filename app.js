@@ -78,3 +78,26 @@ let even = nums.filter((n) => n%2 == 0)
 
 
 console.log(even); // (4) [2, 4, 6, 8]
+
+
+
+
+// 6. Return only active users.
+
+let users = [
+  { name: "Anubhav", active: true },
+  { name: "Rahul", active: false },
+  { name: "Aman", active: true },
+];
+
+
+let trueUsers = users.filter((n) => {
+    if(n.active === true) {
+        return true;
+    } else {
+        return false;
+    }
+} )
+
+
+console.log(trueUsers);
