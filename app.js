@@ -145,3 +145,21 @@ let numbering = [20, 35, 60, 80];
 let greatest = numbering.find((n) => n > 50)
 
 console.log(greatest);
+
+
+
+
+// 10. Find a user with username "admin".
+
+let usersAll = [
+  { username: "rahul" },
+  { username: "admin" },
+  { username: "aman" }
+];
+
+
+let admin = usersAll.find((n) => {
+    return n.username === "admin"
+})
+
+console.log(admin);
