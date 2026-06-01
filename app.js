@@ -117,3 +117,20 @@ let numSum = numd.reduce((n, i) => {
 })
 
 console.log(numSum);
+
+
+
+
+// 8. Count frequency of elements.
+
+let fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+
+let repeat = fruits.reduce((n, i) => {
+    n[i] = (n[i] || 0) + 1
+
+    return n;
+}, {})
+
+
+console.log(repeat);
